@@ -21,7 +21,8 @@ int count = 0, i, j;
 {
    for (j = i + 1; j > 0; j--)					
    {
-         temp = *(str + j);															*(str + j) = *(str + (j - 1));	
-	 *(str + (j - 1)) = temp;					}								
+           temp = *(str + j);							*(str + j) = *(str + (j - 1));	
+           *(str + (j - 1)) = temp;					
+   }								
   }
 }
